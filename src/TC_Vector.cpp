@@ -4,7 +4,7 @@
 namespace techyB
 {
     
-void Vector::printVec() {
+void TC_Vector::printVec() {
     auto vecIt = intVec.begin();
     while(vecIt != intVec.end()) {
         std::cout << "Vector element : " << *vecIt << std::endl;
